@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Croissant+One&family=Fuggles&family=Orbitron&family=Sedgwick+Ave+Display&family=Teko:wght@300&family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+ body{
+    background: #080808;
+    color: #fff;
+ }
+ #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+
+ }
+ .header-text{
+    display: inline-flex;
+ }
+ .im{
+    margin-left: 200px;
+ }
+
+ 
+ .container{
+    padding: 10px 10%;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+ .logo{
+    width: 140px;
+
+ }
+ nav ul li{
+    display: inline-block;
+    list-style:none ;
+    margin: 10px 20px;
+ }
+ nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+ 
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s; 
+}
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+.header-text{   
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+} 
+.header-text h1 span{
+    color: #ff004f;
+
+}
+/*----------about--------------*/
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: inline-flex;
+    justify-content: space-between;
+
+
+}
+#about{
+    margin-top: 60px;
+}
+.about-col-2{
+    margin-left: 100px;
+}
+.about-col-2 h1{
+    padding-bottom: 30px;
+}
+.about-col-2 p{
+     font-family: 'Teko', sans-serif;
+     font-size: x-large;
+    }
+.about-col-2 p span{ 
+    color: #ff004f; 
+    font-family: 'Teko', sans-serif;
+    font-size: x-large;
+
+}
+.about-col-3 h1{
+    margin-top: 30px;
+
+}
+.icons{
+    display: inline-flex;
+    
+}
+.icons .two {
+    margin-left: 20px;
+}
+.icons .three{
+    margin-left: 20px;
+}
+.fa-facebook{
+    font-size: 50px;
+    color: rgb(45, 45, 224);
+
+}
+.fa-square-instagram{
+font-size: 50px;
+color: rgb(237, 79, 108);
+}
+.fa-square-whatsapp{
+    font-size: 50px;
+    color: green;
+
+}
+/* projects */
+#projects{
+    margin-top: 60px;
+}
+#projects h1{
+    text-align: center;
+}
+
+#projects ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    
+    
+}
+#projects ul li{
+    padding: 50px 15px;
+    
+}
+.ab{
+    height: 400px;
+    width: 300px;
+    border: 5px solid white;
+    text-align: center;
+    
+    
+    
+}
+.ab .pr p{ 
+    font-size: 30px;
+    color: #ff004f; 
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+
+
+}
+.cd{
+    height: 400px;
+    width: 300px;
+    border: 5px solid white;
+    text-align: center;
+    
+    
+}
+.cd .pr p{ 
+    font-size: 30px;
+    color: #ff004f; 
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+}.ef{
+    height: 400px;
+    width: 300px;
+    border: 5px solid white;
+    text-align: center;
+    
+    
+}
+.ef .pr p{ 
+    font-size: 30px;
+    color: #ff004f; 
+    font-family: 'Teko', sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* projects end */
+/* hire me */
+#hireme{
+    width: 80%;
+    margin: 50px auto;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+.contactbox{
+    background: #fff;
+    display: flex;
+}
+.contactleft{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contactright{
+    flex-basis: 40%;
+    padding: 40px ;
+    background:  #ff004f;
+    color: #fff;
+}
+h1{
+    margin-bottom: 10px;
+}
+#hireme p{
+    margin-bottom: 40px;
+}
+.inputrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.inputrow .inputgroup{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color:  #ff004f;
+}
+button{
+    background: #ff004f;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+}
+.contactleft h3{
+    color: #ff004f;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+.contactright h3{
+    
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+
+/* hire me end */
+/* socialmedia */
+.socialmedia 
+    .fa-facebook{
+    font-size: 50px;
+    color: #fff;
+
+}
+.socialmedia .fa-square-instagram{
+font-size: 50px;
+color: #fff;
+}
+ .socialmedia .fa-square-whatsapp{
+    font-size: 50px;
+    color: #fff;
+
+}
+
+
+
+/* social media end */
+/* copyright */
+.copyright{
+    width: 100%;
+    background-color: #080808;
+    text-align: center;
+    color: white;
+}
+/* copyright end */

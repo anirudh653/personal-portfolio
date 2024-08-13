@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Croissant+One&family=Dancing+Script&family=Fuggles&family=Orbitron&family=Poppins:ital,wght@1,100&family=Sedgwick+Ave+Display&family=Teko:wght@300&family=Tilt+Prism&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playpen+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Great+Vibes&family=Playpen+Sans:wght@700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    width: 100%;
+    height: 90px;
+    display: inline-flex;
+
+}
+.btn ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 0 18px;
+
+}
+.btn ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Playpen Sans', cursive;
+
+}
+.btn ul li a:hover{
+    color: rgb(53, 245, 53);
+}
+.btn {
+    margin-top: 40px;
+    margin-left: 900px;
+
+}
+#about{
+height: 800px;
+width: 100%;
+
+    background-image: url(images/aboutback.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+.heading h1{
+    margin-left: 600px;
+    color: aqua;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+
+}
+.para{
+    color: rgb(228, 186, 45);
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+#menu{
+    height: 1000px;
+    width: 100%;
+    background-image: url(images/bg-textura.png);
+    background-attachment: scroll;
+    background-size: cover;
+}
+.headinga h1{
+    margin-left: 650px;
+    color: aqua;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+/* menu */
+/* cofeee */
+.cd{
+    height: 140px;
+    width: 350px;
+    
+    display: inline-flex;
+}
+.ab{ 
+    height: 140px;
+    width: 300px;
+    
+    display: inline-flex;
+}
+
+
+
+.ef{ height: 140px;
+    width: 350px;
+    
+    display: inline-flex;
+}
+
+
+.gh{ height: 140px;
+    width: 350px;
+    
+    display: inline-flex;
+}
+.cofee h1{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.cofee ul{
+    display: inline-flex;
+    margin-left: 30px;
+    
+}
+
+
+.cofee ul li{
+    list-style: none;
+    padding: 50px 15px;
+    
+}
+.par{
+    color: brown;
+    margin-left: 20px;
+    margin-top: 60px;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+
+}
+.par:hover{
+    color: black;
+}
+.photo img {
+    border-radius: 50%;
+}
+.cofeea ul{
+    display: inline-flex;
+    margin-left: 30px;
+    
+}
+
+
+.cofeea ul li{
+    list-style: none;
+    padding: 50px 15px;
+}
+
+/* cofee */
+/* cakes */
+.cake h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.cake ul{
+    display: inline-flex;
+    margin-left: 30px;
+    
+}
+
+
+.cake ul li{
+    list-style: none;
+    padding: 50px 15px;
+}
+/* cakes end */
+/* menu */
+/* footer section */
+.footer{
+    height: 150px;
+    
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    padding: 70px 0;
+}
+.ftcol{
+    width: 25%;
+    padding: 0 15px;
+
+}
+.ftcol h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.ftcol h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.ftcol ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.ftcol ul li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#ffffff;
+    display: block;
+}
+.ftcol .sociallinks a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.ftcol p{
+    color: #ffffff;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+/* footerend */
+/* copyright */
+.copyright{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+/* copyright end */
+/* gallery */
+#gallery {
+    overflow: hidden;
+}
+
+#gallery .foto {
+    width: 25%;
+    float: left;
+}
+
+#gallery .foto img {
+    width: 100%;
+    vertical-align: top;
+    opacity: .7;
+}
+
+#gallery .foto:hover img {
+    opacity: 1;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+/* galleryend */
+
